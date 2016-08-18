@@ -17,6 +17,7 @@ set expandtab
 set tabstop=4
 set shiftwidth=4
 syntax on
+set tags=tags
 set background=dark
 set ruler                     " show the line number on the bar
 set more                      " use more prompt
@@ -60,6 +61,12 @@ set ignorecase                " search ignoring case
 set hlsearch                  " highlight the search
 set showmatch                 " show matching bracket
 set diffopt=filler,iwhite     " ignore all whitespace and sync
+
+"  folding settings
+"set foldmethod=indent   "fold based on indent
+"set foldnestmax=10      "deepest fold is 10 levels
+"set nofoldenable        "dont fold by default
+"set foldlevel=1         "this is just what i use
 
 set viminfo=%100,'100,/100,h,\"500,:100,n~/.viminfo
 "  "set viminfo='100,f1
